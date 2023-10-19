@@ -36,7 +36,8 @@ launchBtn.addEventListener("click", event => {
     // update everything
     let update = setInterval(() => {
         if (finish >= 2) {
-            hoursText.innerText = "12 : 12";
+            // set it so it always says 12:12
+            // hoursText.innerText = "12 : 12";
             clearInterval(update);
             return;            
         }
